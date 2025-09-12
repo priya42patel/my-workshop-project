@@ -1,1 +1,1 @@
-const footer = '<footer>@2024 My Project</footer>';
+ const footer = \'<footer>@ $(new Date().getFullYear()My project</footer>;

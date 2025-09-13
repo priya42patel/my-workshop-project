@@ -4,15 +4,15 @@ on: [push,pull,request]
 jobs:
  hello-world:
   runs-on: ubuntu-latest
-steps:
+    steps:
   name: Checkout code
-  uses: action/checkout@v3
+   uses:action/checkout@v3
     
   -name: Say hello
-   run: echo"Hello from github actions!"
+   run:echo"Hello from github actions!"
     
-  -name: List project files
-   run: ls -la
+   -name:List project files
+    run:ls -la
     
-  -name: show current date
-   run: date
+   -name:show current date
+    run:date

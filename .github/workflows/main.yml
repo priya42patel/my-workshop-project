@@ -11,7 +11,7 @@ jobs:
     run:echo" Hello from github actions! "
  
    -name:list project files
-    run:ls -la
+    run:ls-la
    
    -name:Show current date
     run:date  

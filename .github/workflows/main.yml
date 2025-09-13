@@ -1,5 +1,5 @@
 name: My first Workflow
-on: [push,pull_request]
+  on:[push,pull_request]
 
 jobs:
  hello-world:

@@ -2,17 +2,17 @@ name: My first Workflow
 on: [push,pull,request]
 
 jobs:
- Hello-world:
- runs-on: ubuntu-latest
+ hello-world:
+  runs-on: ubuntu-latest
 steps:
-    name: Checkout code
-    uses: action/checkout@v3
+  -name: Checkout code
+  -uses: action/checkout@v3
     
-    -name: Say hello
-    -run: echo " Hello from github actions! "
+  -name: Say hello
+  -run: echo" Hello from github actions! "
     
-    -name: List project files
-    - run: ls -la
+  -name: List project files
+  - run: ls -la
     
-    - name: show current date
-    - run: date
+  - name: show current date
+  - run: date

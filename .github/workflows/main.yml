@@ -1,9 +1,9 @@
-name: My first Workflow
+name:My first Workflow
   on:[push,pull_request]
 
 jobs:
- hello-world:
-    runs-on:ubuntu-latest
+  hello-world:
+      runs-on:ubuntu-latest
   steps:
    -name:Checkout code
     uses:action/checkout@v3

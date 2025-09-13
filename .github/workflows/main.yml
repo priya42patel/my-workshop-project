@@ -4,8 +4,7 @@ on: [push,pull,request]
 jobs:
  Hello-world:
  runs-on: ubuntu-latest
-
- steps:
+steps:
     name: Checkout code
     uses: action/checkout@v3
     

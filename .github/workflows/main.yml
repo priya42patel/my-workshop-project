@@ -3,17 +3,14 @@ on:
    [push,pull_request]
 
 jobs:
-  hello-world:
+ hello-world:
    runs-on:ubuntu-latest
    steps:
-   -name:Checkout code
-    uses:action/checkout@v3
-   
-   -name:Say hello
-    run:echo" Hello from github actions! "
-   
-   -name:list project files
-    run:ls -la
-   
-   -name:Show current date
-    run:date
+     -name:Checkout code
+      uses:action/checkout@v3
+     -name:Say hello
+      run:echo" Hello from github actions! "
+     -name:list project files
+      run:ls -la
+     -name:Show current date
+      run:date

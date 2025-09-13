@@ -4,8 +4,9 @@ on:
 
 jobs:
  hello-world:
-   runs-on:ubuntu-latest
-   steps:
+   runs-on:
+          ubuntu-latest
+    steps:
      -name:Checkout code
       uses:action/checkout@v3
      -name:Say hello
